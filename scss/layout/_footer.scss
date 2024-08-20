@@ -1,6 +1,6 @@
 .pie-de-pagina {
     width: 100%;
-    background-color: $pie-de-pagina;
+    background-color: map-get($coloresprincipales, colorpiepagina);
     padding: 45px 0px;
     font-family: "Nunito", sans-serif;
     .box {

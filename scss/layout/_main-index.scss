@@ -1,5 +1,5 @@
 html {
-    background-color: $color-fondo;
+    background-color: map-get($coloresprincipales , color-fondo);
 }
 
 .grid-matero article {
