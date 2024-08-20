@@ -184,4 +184,81 @@ section a {
   margin: 50px;
 }
 
+@media (max-width: 1231px) {
+  /* modificacion en header */
+  section h1 {
+    font-size: 15px;
+  }
+  .navbar li a {
+    margin: 30px;
+  }
+  /* modificacion en main contactos */
+  section a {
+    font-size: 20px;
+  }
+  section p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 919px) {
+  /* modificacion en header */
+  .navbar li a {
+    margin: 20px;
+  }
+  /* modificaciones en footer */
+  .box {
+    display: flex;
+    justify-content: center;
+    gap: 0.625rem;
+  }
+}
+@media (max-width: 790px) {
+  /* modificacion en header */
+  .navbar li a {
+    margin: 10px;
+    font-size: 13px;
+  }
+  /* modificaciones en informacion */
+  .navbarnosotros {
+    font-size: 20px;
+  }
+}
+@media (max-width: 611px) {
+  .pie-de-pagina {
+    width: 611px;
+    position: fixed;
+    bottom: 0;
+  }
+}
+@media (max-width: 604px) {
+  .pie-de-pagina {
+    width: 604px;
+  }
+  .box p {
+    font-size: 10px;
+  }
+  .linea {
+    width: 604px;
+  }
+  .nosotros {
+    text-align: start;
+  }
+}
+@media (max-width: 597px) {
+  .nosotros {
+    font-size: 25px;
+  }
+  .navbarnosotros {
+    font-size: 20px;
+  }
+}
+@media (max-width: 597px) {
+  .nosotros {
+    font-size: 25px;
+  }
+  .navbarnosotros {
+    font-size: 20px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
