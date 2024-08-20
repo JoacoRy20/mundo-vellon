@@ -1,0 +1,28 @@
+.contenedor-productos {
+    padding: 200px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    .producto-matero img {
+        width: 18.75rem;
+        object-fit: contain;
+    }
+    .producto-infantil img {
+        width: 18.75rem;
+        object-fit: contain;
+    }
+    .producto-matero-amargo img {
+        width: 18.75rem;
+        object-fit: contain;
+    }
+    .producto-matero {
+        text-align: center;
+    }
+    .producto-infantil {
+        text-align: center;
+    }
+    .producto-matero-amargo {
+        text-align: center;
+    }
+}

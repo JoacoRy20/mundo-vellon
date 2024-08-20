@@ -1,0 +1,73 @@
+html {
+    background-color: antiquewhite;
+}
+
+.grid-matero article {
+    padding: 0rem 0px 30rem;
+    width: 100%;
+    height: 56.25rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,450px);
+    grid-template-areas: 
+    "h i"
+    ". i"
+    "p i"
+    ;
+    .grid-matero-h2{
+        grid-area: h;
+        padding: 4.375rem;
+        font-size: 3.75rem;
+        font-family: "Nunito", sans-serif;
+    }
+    .grid-matero-img {
+        grid-area: i;
+    }
+    .grid-matero-parrafo {
+        padding: 5rem;
+        font-size: 25px;
+        grid-area: p;
+    }
+    .grid-matero-parrafo a {
+        font-family: "Nunito", sans-serif;
+        text-decoration: none;
+        color: #985c41;
+    }
+}
+
+.grid-matero-img img { 
+    padding: 80px;
+    width: 50rem;
+    object-fit: contain;
+}
+
+
+
+
+
+.titulo-destacado {
+    padding: 30rem 80px 8rem;
+    width: 100%;
+    font-size: 60px;
+    font-family: "Nunito", sans-serif;
+}
+
+.productos-destacados{
+    display: flex;
+    justify-content: center;
+    gap: 3.75rem;
+    .articulo-matero img {
+        width: 18.75rem;
+    }
+    .articulo-infantil img {
+        width: 18.75rem;
+    }
+    .articulo-matero p {
+        text-align: center;
+        font-family: "Nunito", sans-serif;
+    }
+    .articulo-infantil p {
+        text-align: center;
+        font-family: "Nunito", sans-serif;
+    }
+}

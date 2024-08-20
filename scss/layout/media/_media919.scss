@@ -1,0 +1,13 @@
+@media (max-width:919px) {
+    /* modificacion en header */
+    .navbar li a {
+        margin: 20px;
+    }
+
+    /* modificaciones en footer */
+    .box {
+        display: flex;
+        justify-content: center;
+        gap: .625rem;
+    }
+}

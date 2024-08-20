@@ -1,0 +1,16 @@
+@import "./utilities/variables";
+@import "./utilities/maps";
+@import "./utilities/mixins";
+
+@import "./base/reset";
+@import "./base/fuentes";
+
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/main-contactos";
+@import "./layout/main-informacion";
+@import "./layout/main-ofertas";
+@import "./layout/main-productos";
+
+@import "./components/navbar";
