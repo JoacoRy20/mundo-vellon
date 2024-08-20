@@ -12,12 +12,11 @@ header {
     .titulo {
         list-style: none;
         text-decoration: none;
-        color: black;
+        color: $color-letras;
     }
 }
 
 .linea {
-    background-color: antiquewhite;
     border-top: 1px solid black;
     height: 2px;
     margin: 20px auto 0 auto;

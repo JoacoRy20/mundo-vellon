@@ -1,5 +1,5 @@
 html {
-    background-color: antiquewhite;
+    background-color: $color-fondo;
 }
 
 .grid-matero article {
@@ -31,7 +31,7 @@ html {
     .grid-matero-parrafo a {
         font-family: "Nunito", sans-serif;
         text-decoration: none;
-        color: #985c41;
+        color: $color-letras-gridmatero;
     }
 }
 
