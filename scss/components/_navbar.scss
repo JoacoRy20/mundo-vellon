@@ -1,5 +1,5 @@
 .navbar {
-    display: flex;
+    @include flex(none, none, none, none, none);
     list-style: none;
     li a{
         color: $color-letras;

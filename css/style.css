@@ -7,6 +7,7 @@
 
 .pie-de-pagina {
   width: 100%;
+  background-color: rgba(152, 93, 65, 0.368627451);
   padding: 45px 0px;
   font-family: "Nunito", sans-serif;
 }
@@ -174,6 +175,11 @@ section a {
 
 .navbar {
   display: flex;
+  flex-direction: none;
+  flex-wrap: none;
+  justify-content: none;
+  align-items: none;
+  gap: none;
   list-style: none;
 }
 .navbar li a {
