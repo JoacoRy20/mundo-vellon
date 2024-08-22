@@ -12,3 +12,30 @@ section a {
     font-family: "Nunito", sans-serif;
     font-size: 1.875rem;
 }
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.6s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: scale-up-center 0.6s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  

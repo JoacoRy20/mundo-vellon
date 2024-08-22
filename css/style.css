@@ -79,6 +79,39 @@ html {
   object-fit: contain;
 }
 
+.scale-up-left {
+  -webkit-animation: scale-up-left 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: scale-up-left 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-left {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+  }
+}
+@keyframes scale-up-left {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+  }
+}
 .titulo-destacado {
   padding: 30rem 80px 8rem;
   width: 100%;
@@ -105,6 +138,12 @@ html {
   text-align: center;
   font-family: "Nunito", sans-serif;
 }
+.productos-destacados .articulo-matero:hover {
+  transform: translateY(-1rem);
+}
+.productos-destacados .articulo-infantil:hover {
+  transform: translateY(-1rem);
+}
 
 section a {
   color: black;
@@ -121,6 +160,31 @@ section a {
   font-size: 1.875rem;
 }
 
+.scale-up-center {
+  -webkit-animation: scale-up-center 0.6s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+  animation: scale-up-center 0.6s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
 .nosotros {
   text-align: center;
   width: 100%;
@@ -134,6 +198,31 @@ section a {
   font-size: 25px;
 }
 
+.scale-up-ver-center {
+  -webkit-animation: scale-up-ver-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: scale-up-ver-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-ver-center {
+  0% {
+    -webkit-transform: scaleY(0.4);
+    transform: scaleY(0.4);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+}
+@keyframes scale-up-ver-center {
+  0% {
+    -webkit-transform: scaleY(0.4);
+    transform: scaleY(0.4);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+}
 .container-ofertas-matero img {
   width: 18.75rem;
 }
@@ -171,6 +260,15 @@ section a {
 }
 .contenedor-productos .producto-matero-amargo {
   text-align: center;
+}
+.contenedor-productos .producto-matero:hover {
+  transform: translateY(-1rem);
+}
+.contenedor-productos .producto-infantil:hover {
+  transform: translateY(-1rem);
+}
+.contenedor-productos .producto-matero-amargo:hover {
+  transform: translateY(-1rem);
 }
 
 .navbar {
