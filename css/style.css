@@ -331,6 +331,9 @@ section a {
     position: fixed;
     bottom: 0;
   }
+  .container-ofertas img {
+    width: 15rem;
+  }
 }
 @media (max-width: 604px) {
   .pie-de-pagina {
