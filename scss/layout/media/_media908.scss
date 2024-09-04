@@ -1,0 +1,22 @@
+@media (max-width:908px) {
+    .grid-matero article {
+        .grid-matero-h2{
+            font-size: 2rem;
+        }
+    }
+    .grid-matero-img img { 
+        width: 25rem;
+        }
+        .titulo-destacado {
+            width: 100%;
+            font-size: 40px;
+        }
+        .productos-destacados{
+            .articulo-matero img {
+                width: 14rem;
+            }
+            .articulo-infantil img {
+                width: 14rem;
+            }
+        }
+}

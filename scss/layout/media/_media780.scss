@@ -19,4 +19,27 @@
             width: 8rem;
         }
     }
+    .grid-matero article {
+        display: contents;
+        text-align: center;
+    }
+
+    .titulo-destacado {
+        font-size: 30px;
+        }
+    .productos-destacados{
+        display: contents;
+        .articulo-matero img {
+            width: 13rem;
+        }
+        .articulo-infantil img {
+            width: 13rem;
+        }
+        .articulo-matero p {
+            text-align: start;
+        }
+        .articulo-infantil p {
+            text-align: start;
+        }
+    }
 }

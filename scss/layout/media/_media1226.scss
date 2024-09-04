@@ -1,0 +1,17 @@
+@media (max-width:1226px) {
+    .grid-matero-img img { 
+        padding: 80px;
+        width: 35rem;
+        object-fit: contain;
+    }
+    .grid-matero article{
+        grid-template-areas: 
+        "h i"
+        "p i"
+        ". i"
+        ;
+    }
+    .grid-matero-parrafo {
+        padding: none;
+    }
+}
