@@ -29,17 +29,12 @@
         }
     .productos-destacados{
         display: contents;
+        text-align: center;
         .articulo-matero img {
             width: 13rem;
         }
         .articulo-infantil img {
             width: 13rem;
-        }
-        .articulo-matero p {
-            text-align: start;
-        }
-        .articulo-infantil p {
-            text-align: start;
         }
     }
 }

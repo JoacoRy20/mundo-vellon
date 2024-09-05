@@ -405,18 +405,13 @@ section a {
   }
   .productos-destacados {
     display: contents;
+    text-align: center;
   }
   .productos-destacados .articulo-matero img {
     width: 13rem;
   }
   .productos-destacados .articulo-infantil img {
     width: 13rem;
-  }
-  .productos-destacados .articulo-matero p {
-    text-align: start;
-  }
-  .productos-destacados .articulo-infantil p {
-    text-align: start;
   }
 }
 @media (max-width: 610px) {
@@ -472,32 +467,6 @@ section a {
     font-size: 10px;
   }
 }
-/* /* @media (max-width:604px) {
-    .pie-de-pagina {
-        width: 604px;
-    }
-
-    .box p{
-        font-size: 10px;
-    }
-
-    .linea {
-        width: 604px;
-    }
-
-    .nosotros {
-        text-align: start;
-    }
-}  */
-/* @media (max-width:597px) {
-    .nosotros {
-        font-size: 25px;
-    }
-
-    .navbarnosotros {
-        font-size: 20px;
-    }
-} */
 @media (max-width: 597px) {
   .nosotros {
     font-size: 25px;
