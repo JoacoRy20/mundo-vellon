@@ -1,4 +1,8 @@
 @media (max-width:986px) {
+    .grid-matero article {
+        grid-template-rows: repeat(3,200px);
+    }
+
     .grid-matero-img img { 
         width: 30rem;
         }
